@@ -1,14 +1,7 @@
 body{
-    font-family: arial, sans-serif;
-}
+   font-family: "Josefin Sans", sans-serif;
+   }
 
-.weather-app{
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-   border: 1px solid #dadde1;
-   border-radius: 5px;
-}
 
 
 h1{
@@ -32,4 +25,44 @@ li{
     font-weight: 100;
     line-height: 19px;
 
+}
+.weather-app-wrapper{
+ max-width: 600px;
+    margin: 30px auto;
+    }
+.weather-app{
+
+   padding: 20px;
+   border: 1px solid #dadde1;
+   border-radius: 5px;
+}
+.overviev{
+    margin-bottom: 20px;
+}
+.weather-temperature img{
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+}
+.weather-temperature strong {
+    color: rgb(33,33,33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+.weather-temperature .units{
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+a{
+  text-decoration: none;  
+}
+.myName {
+  color: blanchedalmond;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.myName:hover {
+  color: rgb(255, 205, 205);
 }
