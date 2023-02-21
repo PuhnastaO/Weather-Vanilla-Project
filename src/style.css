@@ -23,7 +23,7 @@ li{
         color: #878787;
     font-size: 16px;
     font-weight: 100;
-    line-height: 19px;
+    line-height: 21px;
 
 }
 li:first-letter {
@@ -49,14 +49,14 @@ li:first-letter {
 }
 .weather-temperature strong {
     color: rgb(33,33,33);
-    font-size: 64px;
+    font-size: 65px;
     line-height: 1;
     font-weight: 400;
 }
 .weather-temperature .units{
     position: relative;
     font-size: 16px;
-    top: -34px;
+    top: -35px;
 }
 .weather-temperature .active{
 color: rgb(33,33,33);
@@ -64,15 +64,24 @@ cursor: default;
 }
 .weather-temperature .active:hover{
     text-decoration: none;
+
 }
 a{
   text-decoration: none;  
+  
+}
+
+p{
+    font-size: small;
+color: #878787;
+margin-bottom: -30px;
+
 }
 .myName {
-  color: blanchedalmond;
+  color: rgb(194, 168, 188);
   font-weight: 400;
   padding-top: 10px;
 }
 .myName:hover {
-  color: rgb(255, 205, 205);
+  color: rgb(117, 71, 117);
 }
