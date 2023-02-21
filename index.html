@@ -26,6 +26,23 @@
         <div class="container">
             <div class="weather-app-wrapper">
             <div class="weather-app">
+                <form id="search-form" class="mb-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="search" placeholder="Name a city.." class="form-control" id="city-input" autocomplete="off" />
+                        </div>
+                        <div class="col-3">
+                            <input type="submit" value="Search 🕵️‍♀️ " class="btn btn-light" />
+                        </div>
+                        <div class="col-3">
+                            <button id="current" class="btn btn-light">
+                                Where am I?
+                            </button>
+                        </div>
+                        
+                    </div>
+                </form>
+                <div class="overviev">
             <h1 id="city">
             </h1>
                 <ul>
@@ -61,7 +78,7 @@
                         </li>
                     </ul>
                 </div>
-            
+            </div>
             <small>
                 <a href="https://github.com/PuhnastaO/Weather-app.git" target="_blank" class="myName">Open-source code</a> by Olena Honcharenko
             </small>
