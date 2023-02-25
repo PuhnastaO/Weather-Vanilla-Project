@@ -38,6 +38,7 @@ li:first-letter {
    padding: 20px;
    border: 1px solid #dadde1;
    border-radius: 5px;
+   padding-bottom: 0px;
 }
 .overviev{
     margin-bottom: 20px;
@@ -71,8 +72,7 @@ a{
   
 }
 
-p{
-    font-size: small;
+small{
 color: #878787;
 margin-bottom: -30px;
 
@@ -88,7 +88,7 @@ margin-bottom: -30px;
 
 
 .weather-forecast{
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     color: #000;
 }
