@@ -35,7 +35,8 @@ if (minutes < 10) {
 let month = months[now.getMonth()];
 function formatDate() {
   return `${day}, ${month} ${date},  ${hours}:${minutes}`;
-  
+  }
+
   function displayForecast() {
     let forecastElement = document.querySelector("#forecast");
     let forecastHTML = `<div class = "row">`;
@@ -64,7 +65,6 @@ function formatDate() {
     forecastHTML = forecastHTML + `</div>`;
     forecastElement.innerHTML = forecastHTML;
   }
-}
 //used tempEl as a global var
 let temperatureElement = document.querySelector("#temperature");
 
